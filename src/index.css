@@ -1,0 +1,120 @@
+.todo-container {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.todo-title {
+    text-align: center;
+    color: #333;
+}
+
+.todo-input-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.todo-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.todo-add-btn,
+.todo-save-btn {
+    padding: 8px 12px;
+    border: none;
+    background: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.todo-save-btn {
+    background: #007bff;
+}
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.todo-task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.todo-actions button {
+    margin-left: 5px;
+    padding: 5px 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.todo-delete-btn {
+    background: #dc3545;
+    color: white;
+}
+
+.todo-complete-btn {
+    background: #ffc107;
+    color: white;
+}
+
+.todo-edit-btn {
+    background: #17a2b8;
+    color: white;
+}
+
+.todo-edit {
+    display: flex;
+    gap: 5px;
+}
+
+.todo-edit-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.todo-save-edit-btn {
+    background: #28a745;
+    color: white;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.todo-cancel-edit-btn {
+    background: #dc3545;
+    color: white;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.todo-completed {
+    text-decoration: line-through;
+    color: #999;
+}
